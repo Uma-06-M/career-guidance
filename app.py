@@ -46,7 +46,5 @@ if st.button('Get Recommendation'):
     st.success(f"**Suggested Career:** {suggested_career}")
     st.info(f"**Scholarship Option:** {scholarship_option}")
 
-    st.warning("
-
-*Note: This application currently provides dummy recommendations.* For accurate results, a machine learning model needs to be trained on relevant student features (Interests, Strengths, Skills, Marks, Personality, Goals, Budget) and integrated here.")
+    st.warning("Note: This application currently provides dummy recommendations.* For accurate results, a machine learning model needs to be trained on relevant student features (Interests, Strengths, Skills, Marks, Personality, Goals, Budget) and integrated here.")
 
